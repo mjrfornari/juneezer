@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans|Roboto+Mono&display=swap');
+
+*, html {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+html {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+#app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+  align-content: stretch;
+  height: 100vh;
+  background: #263859;
+  width: 100%;
+}
+
+.Title {
+  background: #17223b;
+  height: 60px;
+  border-radius: 0 0 50% 50%;
+}
+
+.Title h1{
+  font-family: 'Odibee Sans', cursive;
+  color: #ff6768;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.Body {
+  flex: 1;
+}

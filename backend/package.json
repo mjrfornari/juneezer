@@ -1,0 +1,8 @@
+{
+  "name": "juneezer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mjrfornari/juneezer.git",
+  "author": "Marcos Fornari <mjrfornari@gmail.com>",
+  "license": "MIT"
+}
